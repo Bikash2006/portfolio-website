@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bikash Chaudhary | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Images/OMM.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo-container">
+            <img src="./image/Bikash's Logo.jpg" class="logo-img">
+            <h2 class="logo-text">Bikash</h2>
+        </div>
+        <nav>
+            <div class="nav-links">
+                 <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills & experiences">Skils & Experiences</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        <!-- Hamburger Menu-->
+               <div class="hamburger-menu" onclick="toggleMenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+               </div>
+        </nav>
+    </header>
+
+   <!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-container">
+
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Bikash Chaudhary</span></h1>
+            <h3>IT Student | Developer | Fast Learner</h3>
+            <p>Passionate about technology and building smart systems.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="./image/Bikash Pic 3 copy.jpg" alt="Bikash Photo">
+        </div>
+
+    </div>
+</section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am a Bachelor student at Aadim College of Management and IT.
+                I am passionate about embedded systems and smart automation projects.
+                I am a fast learner with strong communication skills and creative thinking ability.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="grid">
+            <a href="https://www.facebook.com/groups/1015156986850257/" target="_blank" class="card-link">
+                <div class="card">
+                    <h3>SEE</h3>
+                    <p>Wisdom Academy</p>
+                    <p>GPA: 3.10 (2022 AD)</p>
+                </div>
+                </a>
+            <a href="https://www.britishgurkhacollege.edu.np/" target="_blank" class="card-link">
+                <div class="card">
+                    <h3>+2</h3>
+                    <p>British Gurkha Academy Secondary School</p>
+                    <p>GPA: 3.23 (2025 AD)</p>
+                </div>
+                </a>
+            <a href="https://www.collegenp.com/college/aadim-college-of-management-it" target="_blank" class="card-link">
+                <div class="card">
+                    <h3>Bachelor (Running)</h3>
+                    <p>Aadim College of Management and IT</p>
+                </div> 
+                </a>
+        </div>
+    </section>
+
+    <!-- Skill & Experience -->
+    <section id="skills & experiences" class="section">
+    <h2>Skills & Experiences</h2>
+
+    <div class="experience-container">
+
+        <!-- Skills -->
+        <div class="skills">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">AdobePhotoshop</div>
+        </div>
+
+        <!-- Internship -->
+         <a href="https://www.facebook.com/61574733482642/reels/" target="_blank" class="card-link">
+        <div class="card">
+            <h3>Internship - Miteri Sports Hub</h3>
+            <p>Front Desk & HR Department</p>
+            <p>June 2025 – August 2025</p>
+        </div>
+        </a>
+    </div>
+</section>
+
+    <!-- Project -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Smart Home Security System</h3>
+            <p>Arduino based system with ultrasonic sensors, servo motors, gas detection, rain sensor and PIR motion detection.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="card">
+            <p>Email: bikashchaudhary2063@gmail.com</p>
+            <p>Phone: 9822647345</p>
+            <p>Location: Kathmandu, Nepal</p>
+
+             <!-- Download CV Button -->
+        <a href="./Document/Curriculum Vita of Bikash Chaudhary.pdf" download class="btn">Download CV</a>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector(".nav-links");
+            const hamburger = document.querySelector(".hamburger-menu");
+            navLinks.classList.toggle("active");
+            hamburger.classList.toggle("active");
+        }
+     </script>
+
+    <footer>
+        <p>© 2026 Bikash Chaudhary | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
